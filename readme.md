@@ -19,7 +19,8 @@ LAMP
 Неотправленные E-mail сообщения о некорректной настройке функции mail() находятся в файле logger/emails.txt
 
 Запуск PHPUnit:
-- path/to/php7/php vendor/phpunit/phpunit/phpunit tests/MailerTest.php
+- Находясь в папке проекта выполнить /path/to/php7/php composer.phar install
+- /path/to/php7/php vendor/phpunit/phpunit/phpunit tests/MailerTest.php
 
 ### 3. Трейты, интерфейсы, наследование классов
 
